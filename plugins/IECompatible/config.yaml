@@ -1,0 +1,10 @@
+name: IECompatible
+id:   IECompatible
+key:  IECompatible
+version: 0.1
+author_name: Alfasado Inc.
+author_link: http://alfasado.net/
+description: <__trans phrase="IECompatible">
+l10n_class: IECompatible::L10N
+callbacks:
+    MT::App::CMS::template_source.header: $IECompatible::IECompatible::Plugin::_insert_header
